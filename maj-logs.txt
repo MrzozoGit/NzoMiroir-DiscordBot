@@ -1,0 +1,123 @@
+Maj log 20/06/2020 (1.0.0) :
+- Création de la structure du code
+- Ajout de la commande ping
+- Ajout de la commande avatar
+- Ajout de la commande google
+
+Maj log 22/06/2020 (1.0.1) :
+- Ajout de la commande help
+- Ajout de la commande rickroll
+- Ajout de la commande internet
+- Ajout de la commande reda
+- Ajout d'une réponse automatique à 'mdr'
+- Ajout d'une réponse automatique à 'merci'
+- Ajout d'une réponse automatique à 'Nzo miroir'
+
+Maj log 23/06/2020 (1.0.2) :
+- Ajout de la commande info
+- Amélioration de la commande ping :
+    ~ Temps de ping
+- Restructuration du code
+- Optimisation du code
+- Suppression de la commande rickroll
+- Suppression de la commande internet
+- Suppression des réponses automatiques
+
+Maj log 24/06/2020 (1.0.3) :
+- Ajout de la commande clear
+- Ajout de la commande profile
+- Amélioration de la commande help :
+    ~ Version de la commande par rapport au code
+- Amélioration de la commande info
+    ~ Optimisation de la commande info version
+    ~ Ajout de la commande info maj-logs
+- Correction d'un bug sur la fonction ping :
+    ~ Suppresion temps de ping car on ne peut pas créer de fonction asynchrone avec la forme de code actuelle
+
+Maj log 26/06/2020 (1.0.4) :
+- Ajout de la commande kick
+- Ajout de la commande ban
+- Ajout de permissions sur les commandes de modération
+- Ajout des messages de bienvenue
+
+Maj log 29/06/2020 (1.0.5) :
+- Ajout de la commande play
+- Ajout d'un status
+- Améliorations des commandes kick et ban :
+    ~ Ajout d'embed à la place des messages lors d'un kick/ban
+- Amélioration légère de l'indentation
+
+Maj log 30/06/2020 (1.0.6) :
+- Suppression de la commande play
+- Ajout d'une nouvelle commande play avec :
+    ~ Queue fonctionnelle
+    ~ Messages affichant le titre de la musique
+- Ajout de la commande image
+
+Maj log 01/07/2020 (1.0.7) :
+- Ajout de la commande skip
+- Ajout de la commande stop
+- Ajout de la commande queue
+- Amélioration de la commande play
+
+Maj log 10/07/2020 (1.0.8) :
+- Ajout de la commande poll
+- Ajout de l'envoi d'un message privé lors de sa première connection sur le serveur
+- Mise à jour de la commande help pour la version 1.0.8
+
+Maj log 13/07/2020 (1.0.9) :
+- Amélioration de la commande avatar :
+    ~ Ping un utilisateur pour afficher son avatar
+- Amélioration de la commande profile :
+    ~ Ping un utilisateur pour afficher son profil
+    ~ Nouvelles informations affichées :
+        - Tag de l'utilisateur
+        - ID de l'utilisateur
+        - Rôles de l'utilisateur
+        - Dernier message posté sur le serveur
+        - Date d'arrivée sur le serveur
+    ~ Serveur sur lequel apparaît le profil indiqué dans le footer
+    ~ Couleur de l'embed s'adapte en fonction de la couleur du pseudo
+
+Maj log 14/07/2020 (1.1.0) :
+- Amélioration de la commande avatar :
+    ~ Affiche un message lorsque un utilisateur ne possède pas d'avatar.
+    ~ Modification de la structure du code.
+- Amélioration des commandes kick et ban :
+    ~ Possibilité d'ajouter une raison au kick
+    ~ Affichage de cette raison dans l'embed
+    ~ Ajout de gifs lors du kick/ban pouvant être spécifiques à l'auteur de la commande
+- Mise à jour de la commande help pour la 1.1.0
+
+Maj log 15/07/2020 (1.1.1) :
+- Ajout de la commande roll
+- Ajout de la commande coinflip
+- Ajout de la commande love
+- Ajout de la commande quote (en création)
+- Ajout de la commande randomquote (en création)
+- Ajout de la commande stats (en création)
+- Mise à jour de la commande help pour la 1.1.1
+
+Maj log 16/07/2020 (1.1.2) :
+- Achèvement de la commande stats
+- Achèvement de la commande quote
+- Ajout de la commande quotedelete
+- Ajout de la commande quotesee
+- Amélioration de la commande stats :
+    ~ Ajout d'un timestamp dans l'embed
+    ~ Ajustement des titres des fields
+- Amélioration de la commande randomquote
+
+Maj log 18/07/2020 (1.1.3) :
+- Achèvement de la commande randomquote
+- Amélioration de la commande help :
+    ~ Remplacement du gros message par un embed
+- Amélioration des commandes musiques :
+    ~ Ajout d'un embed à la commande queue
+    ~ Remplacement du message d'annonce d'une nouvelle musique par un embed
+- Correction d'un bug dans les commandes kick et ban
+- Correction d'un bug causé par l'ancienne variable serverQueue
+- Correction d'une faute dans un des messages de la fonction quotesee
+
+Maj log 29/11/2020 (1.2) :
+- Correction d'un bug sur la commande play du à une mise à jour de ymdl-core

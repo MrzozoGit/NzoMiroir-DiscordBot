@@ -1,0 +1,20 @@
+Essais réalisé pour optimiser les commandes :
+• Création de modules
+• Création de plusieurs fichiers js
+• Création de fonctions dans le fichier index
+
+Conclusion :
+  On appelle qu'une seule fois ces fonctions, doncpas la peine 
+  de chercher à optimiser les commandes de cette manière.
+  Il serait plus efficace ; même si moins visuel ; d'écrire
+  les fonction directement dans le bot.on.
+
+Néanmoins :
+  La méthode que j'utilise n'est pas vraiment la meilleure.
+  Elle m'empeche de créer des commandes plus complexes, et
+  elle m'empeche de créer des fonctions asynchrones.
+
+Donc :
+  Dans le futur, pour un prochain bot, il me faudra utiliser 
+  la forme indiquée dans le tutoriel de DevMonitoring :
+  https://www.youtube.com/watch?v=docip3RjZD8
